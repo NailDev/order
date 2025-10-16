@@ -78,6 +78,7 @@ html {
 }
 body {
   margin: 0;
+  padding: 0;
 }
 main {
   display: block;
@@ -1075,6 +1076,7 @@ form{
 
   max-width: 100%;
   margin-top: -20px;
+
 }
 .imgCard{
   margin-top: 30px;
@@ -1105,7 +1107,7 @@ form{
   margin-bottom: 14px;
 }
 .unit-goods__title {
-  margin-top: 5rem;
+  margin-top: 6rem;
   margin-bottom: 2.2rem;
   padding-right: 160px;
 }
@@ -1620,9 +1622,8 @@ a.unit-product__desc-name:active {
   position: relative;
 }
 .b-subscribe__graphic {
-  position: absolute;
-  right: 300px;
-  bottom: 789px;
+  margin-left: 860px;
+  margin-top: -442px;
 }
 .unit-product__desc-tag {
   position: absolute;
@@ -1750,6 +1751,7 @@ a.b-tag {
 .unit-product__contain {
   position: relative;
 }
+
 .unit-basket-page__list-item--availability .b-counter-navigation__inp {
   display: none;
 }
@@ -1862,4 +1864,17 @@ a.b-tag {
 }
 .unit-card__price .unit-price__sum {
   display: inline;
+}
+.address-shops__title {
+  padding-top: 7rem;
+}
+script{
+  display: block;
+  margin-bottom: -660px;
+  width: 1481px; 
+  height: 600px;
+}
+
+.color--red {
+  color: #ff5f5f;
 }
